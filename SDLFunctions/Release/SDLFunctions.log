@@ -1,0 +1,10 @@
+﻿  ImageLoader.cpp
+  SoundSystem.cpp
+  Source.cpp
+C:\Users\marti\Desktop\SDLFunctions\SDLFunctions\Source.cpp(50,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\marti\Desktop\SDLFunctions\SDLFunctions\Source.cpp(51,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 133 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SDLFunctions.vcxproj -> C:\Users\marti\Desktop\SDLFunctions\Release\SDLFunctions.exe
