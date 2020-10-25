@@ -1,5 +1,5 @@
 #include "Objects.h"
-
+#include <ctime>
 
 SDL_Window* Objects::window = nullptr;
 SDL_Renderer* Objects::renderer = nullptr;

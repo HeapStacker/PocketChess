@@ -1,7 +1,0 @@
-﻿  Pieces.cpp
-  Source.cpp
-C:\Users\marti\Desktop\PocketChess\SDLFunctions\Source.cpp(169,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\marti\Desktop\PocketChess\SDLFunctions\Source.cpp(170,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  StackOfObjects.cpp
-  Generating Code...
-  SDLFunctions.vcxproj -> C:\Users\marti\Desktop\PocketChess\Debug\SDLFunctions.exe
