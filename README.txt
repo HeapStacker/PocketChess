@@ -12,7 +12,8 @@ SDL2_image.lib
 SDL2_mixer.lib
 Linker->Input->Additional Dependecies ...
 
-Now you can replace your project folder with mine and hopefully the game will work when you run it from *visual studio*.
+Now you can replace your project folder with mine and add all the sfml bin files(dll files) into it.
+At this point, the game will probably run if u play it from the *visual studio*.
 Enjoy :)
 
 
