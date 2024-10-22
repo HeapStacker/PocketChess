@@ -1,27 +1,28 @@
-#Pocket Chess 1.0.0
+Pocket Chess 1.0.0
+The project is built using C++ and the SDL2 library. This is the first version of the program, so it still contains several bugs.
 
-The project is made with c++ and sdl2 lib. This is the first ver. of the program so it has many bugs.
+Build Instructions
+You cannot directly build the game from the source code. To try it out, follow these steps:
 
-BUILD
-You can't build the game from source code. To try it out, download the sdl2, sdl2_image and sdl2_mixer libs and create the project that will include and link them.
+Download the SDL2, SDL2_image, and SDL2_mixer libraries.
 
-Also insert these libs in Additional Dependencies
+Create a project that includes and links these libraries.
+
+Add the following libraries to the Additional Dependencies:
+
 SDL2.lib
 SDL2main.lib
 SDL2_image.lib
 SDL2_mixer.lib
-Linker->Input->Additional Dependecies ...
+(Linker -> Input -> Additional Dependencies)
+Once your project is set up, replace your project folder with mine and add all the required SDL2 DLL files (bin files) to the folder.
 
-Now you can replace your project folder with mine and add all the sfml bin files(dll files) into it.
-At this point, the game will probably run if u play it from the *visual studio*.
-Enjoy :)
+At this point, the game should run if you launch it from Visual Studio. Enjoy! :)
 
-
-*Bugs*
--sounds are not implemented yet
--options button doesn't work
--only the versus mode is playable
--resizeing the window is proper only in the game state mode
--you cann't win or lose the game(you can kill the king)
--the game is not optimised fully
--...
+Known Bugs
+*Sounds are not implemented yet.
+*The options button doesn't work.
+*Only the versus mode is playable.
+*Window resizing works correctly only in the game state mode.
+*You cannot win or lose the game (the king can be captured, but the game doesn’t end).
+*The game is not fully optimized.
